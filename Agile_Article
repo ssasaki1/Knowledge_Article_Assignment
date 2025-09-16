@@ -1,0 +1,24 @@
+＃How It's Important To Leave Notes For Me In The Future When Setting Up Database Connections
+
+#When spinning up a full-stack Node.js application, configuring the database connection is more
+  than just another checklist item—it is the most important thing.If the backend can't read and 
+  write data, the app won't work, no matter how good the frontend is.Additionally, environment 
+  variables and connection strings should be hidden for security reasons.It is also important to c
+  arefully manage the settings and file structure.Therefore, I need to understand "Handing Off To My 
+  Future Self". 
+
+#Experience
+  When I connected MongoDB to Node.js app, I got some probles. 
+  - **Forgetting the structure of the connection string**  
+    I had stored the `MONGO_URI` as an environment variable, but when I resumed work a few days later, 
+  I couldn’t recall the exact options or authentication method and had to revisit the documentation.
+
+  - **Cannot figure out the date and time**
+    Because I did not record the date and time of the connection test, I had difficulty figuring out 
+    "when the failure occurred" during the reproduction test.
+
+I took some actions for agile handoff 
+
+  -- Added not only setup instructions but also **detailed connection-string notes** to `README.md`,
+  including authentication formats and the driver version I used.  
+  - Recorded **date and time** of each successful test both in the README and in commit messages
