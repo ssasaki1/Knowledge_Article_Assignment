@@ -22,3 +22,15 @@ I took some actions for agile handoff
   -- Added not only setup instructions but also **detailed connection-string notes** to `README.md`,
   including authentication formats and the driver version I used.  
   - Recorded **date and time** of each successful test both in the README and in commit messages
+
+# What is the Agile handoff?
+  A handoff is "the sharing of knowledge and status so that the next person can continue working smoothly."
+
+  -So why is handing off to yourself important?-
+  Sharing information is paramount when you need to do handoff to someone else. However, this also applies to self-handoffs.
+  When you return to a project hours or days later, it is crucial to maintain development efficiency.
+  You must prepare so that your future self can receive enough information from your past self.
+
+  There are other reasones here:
+    -If you wait a few days, you may forget the connection procedure or package version.
+    -When other people join the project, your notes become shared documents for other members.
